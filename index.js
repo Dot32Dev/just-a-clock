@@ -1,11 +1,7 @@
-console.log("javascript loaded")
-
-var today = new Date();
-var time = today.getHours() + ":" + today.getMinutes() + "<span>:" + today.getSeconds(); + "</span>"
-document.querySelector("p").innerHTML = time;
+console.log("Javascript loaded")
 
 setInterval( ()=>{
   var today = new Date();
-	var time = today.getHours() + ":" + today.getMinutes() + "<span>:" + today.getSeconds(); + "</span>"
+	var time = today.getHours() + ":" + String(today.getMinutes()).padStart(2, '0') + "<span>:" + String(today.getSeconds()).padStart(2, '0') + "</span>"
 	document.querySelector("p").innerHTML = time;
 }, 100)

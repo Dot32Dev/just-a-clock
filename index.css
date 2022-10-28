@@ -3,8 +3,12 @@ body {
 	font-family: 'Major Mono Display', monospace;
 	background-color: black;
 	color: red;
-	font-size: 30vh;
+	font-size: 10vw;
 	text-align: center;
+}
+
+p {
+	margin-top: 35vh;
 }
 
 span {

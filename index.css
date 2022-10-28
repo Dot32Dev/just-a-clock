@@ -1,0 +1,13 @@
+body {
+	/*font-family: 'Audiowide', helvetica, sans-serif;*/
+	font-family: 'Major Mono Display', monospace;
+	background-color: black;
+	color: red;
+	font-size: 30vh;
+	text-align: center;
+}
+
+span {
+	/*color: darkred;*/
+	color: rgba(255, 0, 0, 0.4);
+}
